@@ -1,0 +1,4 @@
+﻿interface:
+  display_name: "RIPER Workflow"
+  short_description: "Structured collaboration using the RIPER five-phase framework with TDD, structured innovation, and systematic review."
+  default_prompt: "Begin by declaring [MODE: RESEARCH] and use all available tools to understand the task before proposing solutions or writing code."
