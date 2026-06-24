@@ -1,14 +1,11 @@
-# Session Handover Skill
+---
+name: session-handover
+description: Generate a `handover.md` file at the project root that summarizes the current agent session, so a new session can continue the work without re-reading the old session's history. Use this skill whenever the user wants to switch to a new session, hand over or hand off a session, create a handover/handoff document, or summarize the current session for continuation. Make sure to trigger when the user says things like "生成 handover", "交接会话", "切换会话", "session handover", "handoff", "switch session", "summarize this session", "I'm running out of context", or otherwise signals that the current session is ending and a new one will pick up the work — even if they don't explicitly say "handover".
+---
 
-## Description
+# Session Handover
 
 Generate a `handover.md` file at the project root that summarizes the current agent session, so a new session can continue the work without re-reading the old session's history.
-
-Use this skill when the user wants to:
-- Switch to a new session / hand over a session
-- Create a handover / handoff document
-- Summarize the current session for continuation
-- Says "生成 handover", "交接会话", "切换会话", "session handover", "handoff", etc.
 
 ## Workflow
 
